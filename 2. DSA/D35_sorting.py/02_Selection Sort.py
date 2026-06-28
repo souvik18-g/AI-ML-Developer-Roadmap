@@ -17,4 +17,4 @@ print(arr)
 selection_sort(arr)
 
 print("After Selection Sort:")
-print(arr)        
+print(arr)        #Find the smallest element and put it at the correct position.

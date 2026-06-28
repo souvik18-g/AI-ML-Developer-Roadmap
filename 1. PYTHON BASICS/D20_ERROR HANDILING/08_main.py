@@ -1,0 +1,1 @@
+from moduleo import myfunc

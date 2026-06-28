@@ -18,4 +18,5 @@ print(arr)
 bubble_sort(arr)
 
 print("After Bubble Sort:")
-print(arr)                
+print(arr)                # here big no contineiusly compare small no & go right 
+                           # so bubble sort is small to big arrangement
