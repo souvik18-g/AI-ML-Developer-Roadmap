@@ -28,4 +28,4 @@ print("25th Percentile:", q1)
 print("75th Percentile:", q3)
 
 # IQR
-print("IQR:", q3 - q1)
+print("IQR:", q3 - q1) # its the difference between 75th and 25th percentile
