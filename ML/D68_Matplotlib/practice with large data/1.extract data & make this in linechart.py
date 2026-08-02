@@ -16,6 +16,6 @@ plt.figure(figsize=(12,8)) # make large size of figure so not to be overlap
 plt.plot(x,y)
 plt.savefig("1.Genre Data in linechart.png",dpi=350,bbox_inches='tight') #save result with resolution accrding me 
 
-plt.bar(x,y)
-plt.savefig("2.Genre Data in barchart.png",dpi=350,bbox_inches='tight') #save result with resolution accrding me 
+# plt.bar(x,y)
+# plt.savefig("2.Genre Data in barchart.png",dpi=350,bbox_inches='tight') #save result with resolution accrding me 
 
