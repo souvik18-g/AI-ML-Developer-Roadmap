@@ -1,0 +1,53 @@
+.Search-bar{
+    font-size: 20px;
+
+    display: block;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 16px;
+}
+
+.thumbnail{
+    width: 100%;
+    
+    object-fit: contain;
+    object-position: right;
+}
+
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+
+.channel-pic{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    
+}
+.channel-info{
+    display: inline-block;
+    width:200px;
+    
+
+}
+.profile-pic{
+    width:40px;
+    margin-bottom:5px ;
+    border-radius:18px ;
+    
+
+}
+.Video-titel{
+    margin: 0;
+    font-weight: 550;
+}
+.thumbnail-row{
+    margin-bottom:12px ;
+}
