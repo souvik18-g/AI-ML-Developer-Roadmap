@@ -6,19 +6,45 @@
     justify-content: space-between;
 }
 .left-section{
-    background-color: lightblue;
-    width:150px;
+    
+    
+    display: flex;
+    align-items: center;
 }
 .mid-section{
-    background-color:lightpink ;
+    
     margin-right: 0px;
     flex:1;
     margin-left: 70px;
     margin-right: 35px;
     max-width:500px;
+   display: flex;
+    align-items: center;
 }
 
 .right-section{
     background-color: lightblue;
     width:200px;
 }    
+.hamburger{
+    height:25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.yt_logo{
+    height:20px
+}
+.voice-icon{
+    height: 40px;
+    width: 60px;
+    flex-shrink: 0;
+    margin-left:10px; 
+
+}
+.search-icon{
+    height: 40px;
+    width: 60px;
+}
+.search-icon::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
