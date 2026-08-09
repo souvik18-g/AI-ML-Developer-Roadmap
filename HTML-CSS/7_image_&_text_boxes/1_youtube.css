@@ -58,4 +58,11 @@
 }
 .thumbnail-row{
     margin-bottom:12px ;
+    position:relative;
+}
+body{
+    margin:0;
+    padding-top: 80px;
+    padding-left:80px ;
+    
 }

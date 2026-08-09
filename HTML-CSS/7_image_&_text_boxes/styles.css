@@ -4,7 +4,16 @@
     flex:row;
     margin-bottom: 0px;
     justify-content: space-between;
-}
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(39, 140, 223);
+    border-bottom-style:bold ;
+    z-index: 100;
+    }
 .left-section{
     
     
