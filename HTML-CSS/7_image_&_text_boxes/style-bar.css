@@ -1,0 +1,36 @@
+.sidebar{
+    position: fixed;
+    left:0;
+    bottom: 0 ;
+    top:55px;
+    background-color: white;
+    width:72px;
+    
+    
+}
+.video-time{
+    background-color: black;
+    color:white;
+    position: absolute;
+    bottom:10px;
+    right:8px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.notifi-icon{
+    position: relative;
+
+}
+.no_of_notic{
+    position: absolute;
+    background-color: rgb(236, 46, 46);
+    width:12px;
+    color: white;
+    right:-4px;
+    top:-2px;
+    font-size: 12px;
+    padding-left: 4px;
+    border-radius: 30px;
+}
