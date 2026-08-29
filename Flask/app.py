@@ -25,7 +25,19 @@ def login():
             Password: <input type="password" name="password"><br>
             <input type="submit" value="Login">
         </form>
+    '''  
+#welcome page(after login) 
+@app.route("/welcome")
+def welcome():
+    if "user" in session:
+        return f'''
+        <h2>Welcome, {session["user"]}!</h2>
+        <a href={url_for('logout')}>Logout</a>
+    '''
+    return redirect(url_for("login")) 
 
-
-
-'''    
+#logout route
+@app.route("/logout")
+def logout():
+    session.pop("user",None)
+    return redirect(url_for("login"))
