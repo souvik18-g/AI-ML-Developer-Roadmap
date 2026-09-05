@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>{% block title %}Practice Site{% endblock %}</title>
+</head>
+<body>
+    <h1>{% block heading %} My Practice Site{% endblock %}</h1>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            
+                {% for category , message in messages %}
+                    <p style="color: green;">
+                    <li>{{ message }}</li>
+                    </p>                
+                {% endfor %}
+            
+        {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+</body>
+</html>
